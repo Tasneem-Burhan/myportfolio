@@ -1,0 +1,27 @@
+@import 'bootstrap';
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+ 
+  .about-card {
+    background: rgba(0, 0, 0, 0.4); /* Transparent dark effect */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  .about-card h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-card p {
+    font-size: 1.2rem;
+  }
+  
+  .about-card .btn {
+    margin-top: 10px;
+  }
+  

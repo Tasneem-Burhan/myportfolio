@@ -1,0 +1,41 @@
+@import 'bootstrap';
+
+body, html {
+  height: 100%;
+  margin: 0;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+  background: url("/creative-workspace-with-camera-tablet-copy-space_67155-1468.webp") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: bolder;
+
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.content h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
