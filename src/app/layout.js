@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 import Header from "@/components/Navbar";
 
@@ -13,14 +14,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  // icon : <img src="/favicon.webp" />,
   title: "My portfolio",
   description: "Welcome to my portfolio",
+  icons: "/services.png", // Path to your favicon in the public folder
+
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+      <link rel="icon" href="/services.png" type="image/webp" />
+      </Head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />
         {children}
